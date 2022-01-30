@@ -40,5 +40,36 @@
 }
 .bottom {
   display: flex;
-  height: 25vh;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 100%;
+  color: black;
+}
+.sum {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.imgH {
+  height: 30px;
+  width: 35px;
+  padding: 20px;
+}
+
+input {
+  width: 36vw;
+  height: 30px;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  padding: 5px;
+}
+button {
+  height: 40px;
+  width: 6vw;
+  border-radius: 0 10px 10px 0;
+  background-color: rgb(4, 165, 170);
+  border: none;
+  padding: 5px;
 }
