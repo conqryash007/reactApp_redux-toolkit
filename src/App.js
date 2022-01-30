@@ -13,7 +13,7 @@ function App() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchWeatherData("Ram"));
-  }, []);
+  }, [dispatch]);
 
   const searchCity = () => {
     if (city) dispatch(fetchWeatherData(city));
